@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 
 export const FooterContainer = styled.footer`
   background-color: #101522;
+  
 `
 export const FooterWrap = styled.div`
   padding: 35px 24px;
@@ -19,7 +20,7 @@ export const FooterLinksContainer = styled.div`
    justify-content: center;
 
    @media screen and (max-width: 820px) {
-       padding-top: 32px;
+       padding-top: -2px;
    }
 `
 export const FooterLinksWrapper = styled.div`
@@ -44,7 +45,7 @@ color: #fff;
 
    @media screen and (max-width: 420px) {
        margin: 0;
-       padding: 10px;
+       padding: 2px;
        width: 100%;
    }
 `
@@ -58,6 +59,7 @@ export const FooterLink = styled(Link)`
    &:hover {
        color: #01BF71;
        transition:  all 0.3s ease-out;
+       cursor: pointer;
    }
 `
 export const SocialMedia = styled.section`

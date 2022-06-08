@@ -75,11 +75,23 @@ import styled from 'styled-components';
     font-size: 14px;
     color: #fff;
  `
+ export const FormLabelText = styled.label`
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #fff;
+ `
+
  export const FormInput = styled.input`
-    padding: 16px 16px;
+    padding: 12px 16px;
     margin-bottom: 32px;
     border: none;
     border-radius: 4px;
+ `
+ export const FormInputTextarea = styled.textarea`
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: black;
+    height: 60px;
  `
  export const FormButtom = styled.button`
     background: #01bf71;
@@ -89,10 +101,11 @@ import styled from 'styled-components';
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+    margin-top: 10px;
 `
  export const Text = styled.span`
-    text-align: center;
-    margin-top: 24px;
-    color: #fff;
-    font-size: 14px;
+   //  text-align: center;
+   //  margin-top: 24px;
+   //  color: #fff;
+   //  font-size: 14px;
  `

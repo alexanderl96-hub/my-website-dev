@@ -2,7 +2,6 @@ import React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa'
 import { animateScroll as scroll} from 'react-scroll'
 import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLink, SocialMedia, SocialMediaWrap, SocialMediaLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements'
-
 const Footer = () => {
     const toggleHome = () => {
         scroll.scrollToTop();
